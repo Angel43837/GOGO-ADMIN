@@ -46,3 +46,6 @@ app.*.map.json
 
 # Widget Preview related
 .widget_preview/
+
+# Override local de gogo-core para probar cambios (ver packages/gogo_core/README.md en fercadi-delivery)
+pubspec_overrides.yaml

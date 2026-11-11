@@ -183,7 +183,7 @@ packages:
     source: sdk
     version: "0.0.0"
   flutter_image_compress:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: flutter_image_compress
       sha256: "98a48c05a7add6869c6838270e862124a4d571f9dd5d0cf209ed03a71b20ea84"
@@ -265,7 +265,7 @@ packages:
     source: hosted
     version: "2.7.1"
   geocoding:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: geocoding
       sha256: d580c801cba9386b4fac5047c4c785a4e19554f46be42f4f5e5b7deacd088a66
@@ -297,7 +297,7 @@ packages:
     source: hosted
     version: "3.2.0"
   geolocator:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: geolocator
       sha256: f62bcd90459e63210bbf9c35deb6a51c521f992a78de19a1fe5c11704f9530e2
@@ -352,6 +352,15 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "14.8.1"
+  gogo_core:
+    dependency: "direct main"
+    description:
+      path: "packages/gogo_core"
+      ref: "gogo-core-v1.0.0"
+      resolved-ref: "54016d14a5864b2a70634bbb3da72c1eddb7bc44"
+      url: "https://github.com/Angel43837/fercadi-delivery.git"
+    source: git
+    version: "1.0.0"
   gotrue:
     dependency: transitive
     description:
@@ -361,7 +370,7 @@ packages:
     source: hosted
     version: "2.27.3"
   http:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: http
       sha256: "87721a4a50b19c7f1d49001e51409bddc46303966ce89a65af4f4e6004896412"
@@ -641,7 +650,7 @@ packages:
     source: hosted
     version: "2.13.2"
   shared_preferences:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: shared_preferences
       sha256: "1e85e0dccf5b4a016077fea7dfbb4a7cb39c759ac1596fcf60c06deadb7da91f"
